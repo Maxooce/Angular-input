@@ -1,0 +1,10 @@
+<h2>Développeur :</h2>
+
+<h3>Nom : {{developer.lastName}} {{developer.firstName}}</h3>
+<p>Age : {{developer.age}}</p>
+<p>Sexe : {{developer.sexe}}</p>
+<p>Bio : {{developer.bio}}</p>
+
+<h2>Compétences du développeur :</h2>
+
+<app-skill [skill]="skillID" *ngFor="let skillID of skillArray"></app-skill>

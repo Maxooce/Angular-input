@@ -1,0 +1,8 @@
+img {
+    width: 30px;
+}
+
+p {
+    display: flex;
+    align-items: center;
+}
